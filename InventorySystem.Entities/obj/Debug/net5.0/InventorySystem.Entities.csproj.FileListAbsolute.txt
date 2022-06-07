@@ -1,0 +1,12 @@
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\bin\Debug\net5.0\InventorySystem.Entities.deps.json
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\bin\Debug\net5.0\InventorySystem.Entities.dll
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\bin\Debug\net5.0\InventorySystem.Entities.pdb
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\obj\Debug\net5.0\InventorySystem.Entities.csproj.AssemblyReference.cache
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\obj\Debug\net5.0\InventorySystem.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\obj\Debug\net5.0\InventorySystem.Entities.AssemblyInfoInputs.cache
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\obj\Debug\net5.0\InventorySystem.Entities.AssemblyInfo.cs
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\obj\Debug\net5.0\InventorySystem.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\obj\Debug\net5.0\InventorySystem.Entities.dll
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\obj\Debug\net5.0\refint\InventorySystem.Entities.dll
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\obj\Debug\net5.0\InventorySystem.Entities.pdb
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Entities\obj\Debug\net5.0\ref\InventorySystem.Entities.dll

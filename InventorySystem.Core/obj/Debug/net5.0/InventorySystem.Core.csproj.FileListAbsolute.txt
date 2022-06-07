@@ -1,0 +1,17 @@
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\obj\Debug\net5.0\InventorySystem.Core.csproj.AssemblyReference.cache
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\obj\Debug\net5.0\InventorySystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\obj\Debug\net5.0\InventorySystem.Core.AssemblyInfoInputs.cache
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\obj\Debug\net5.0\InventorySystem.Core.AssemblyInfo.cs
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\obj\Debug\net5.0\InventorySystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\bin\Debug\net5.0\InventorySystem.Core.deps.json
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\bin\Debug\net5.0\InventorySystem.Core.dll
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\bin\Debug\net5.0\InventorySystem.Core.pdb
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\bin\Debug\net5.0\InventorySystem.DataAccess.dll
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\bin\Debug\net5.0\InventorySystem.Entities.dll
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\bin\Debug\net5.0\InventorySystem.DataAccess.pdb
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\bin\Debug\net5.0\InventorySystem.Entities.pdb
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\obj\Debug\net5.0\InventorySystem.Core.csproj.CopyComplete
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\obj\Debug\net5.0\InventorySystem.Core.dll
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\obj\Debug\net5.0\refint\InventorySystem.Core.dll
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\obj\Debug\net5.0\InventorySystem.Core.pdb
+C:\Users\ISABELLE SANCHEZ\Documents\Backend\InventorySystem\InventorySystem.Core\obj\Debug\net5.0\ref\InventorySystem.Core.dll
