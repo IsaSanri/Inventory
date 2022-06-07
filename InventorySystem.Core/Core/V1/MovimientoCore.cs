@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using InventorySystem.Contracts.Repository;
 using InventorySystem.Core.Core.ErrorsHandler;
 using InventorySystem.DataAccess.Context;
 using InventorySystem.Entities.Entities;
@@ -7,18 +8,19 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace InventorySystem.Core.Core.V1
 {
     public class MovimientoCore
     {
-        private readonly SqlServerContext _context;
+        private readonly IMovmientoRepository _context;
         private readonly ILogger _logger;
         private readonly ErrorHandler<Movimiento> _errorHandler;
         private readonly IMapper _mapper;
 
-        public MovimientoCore(ILogger<Movimiento> logger, IMapper mapper, SqlServerContext context)
+        public MovimientoCore(ILogger<Movimiento> logger, IMapper mapper, IMovmientoRepository context)
         {
             _logger = logger;
             _errorHandler = new ErrorHandler<Movimiento>(logger);
@@ -29,16 +31,28 @@ namespace InventorySystem.Core.Core.V1
         {
             try
             {
-                var response = await _context.Movimiento.ToListAsync();
+                var response = await _context.GetAllAsync();
                 return new ResponseService<List<Movimiento>>(false, response.Count == 0 ? "No records found" : $"{response.Count} records found", System.Net.HttpStatusCode.OK, response);
             }
             catch (Exception ex)
             {
                 return _errorHandler.Error(ex, "GetMovimientoAsync", new List<Movimiento>());
-                //return new ResponseService<List<Movimiento>>(true, $"Error: {ex.Message}", System.Net.HttpStatusCode.InternalServerError, new List<Movimiento>());
+                
             }
         }
 
+        public async Task<ResponseService<Movimiento>> GetMovimientoByIdAsync(int id)
+        {
+            try
+            {
+                var response = await _context.GetByIdAsync(id);
+                return new ResponseService<Movimiento>(false, response == null ? "No records found" : "Record found:", HttpStatusCode.OK, result);
+            }
+            catch (Exception ex)
+            {
+                return _errorHandler.Error(ex, "GetMovementByIdAsync", new Movimiento());
+            }
+        }
         //public async Task<Movimiento> CreateMovimientoAsync(MovimientoCreateDto entity)
         //{
         //    Movimiento newMovimiento = new();

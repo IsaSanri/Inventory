@@ -33,9 +33,9 @@ namespace InventorySystem.Services.Controllers
 
         // GET: api/<MovimientosController>
         [HttpGet("Stock")]
-        public async Task<ActionResult<IEnumerable<ArticuloSaldoExistenciaDto>>> GetSaldos()
+        public async Task<ActionResult<Movimiento>> Get(int id)
         {
-            var response = await _movimientoCore.GetSaldosAsync();
+            var response = await _movimientoCore.GetMovimientoByIdAsync(id);
             return StatusCode((int)response.StatusHttp, response);
         }
 
@@ -47,22 +47,22 @@ namespace InventorySystem.Services.Controllers
             return "value";
         }
 
-        // POST api/<MovimientosController>
-        [HttpPost]
-        //public async Task<Movimiento> Post([FromBody] MovimientoCreateDto movimiento)
-        //{
-        //    return await _movimientoCore.CreateMovimientoAsync(movimiento);
-        //}
+        //// POST api/<MovimientosController>
+        //[HttpPost]
+        ////public async Task<Movimiento> Post([FromBody] MovimientoCreateDto movimiento)
+        ////{
+        ////    return await _movimientoCore.CreateMovimientoAsync(movimiento);
+        ////}
 
-        // PUT api/<MovimientosController>/5
-        [HttpPut]
-        //public async Task<bool> Put([FromBody] Movimiento movimiento)
-        //{
-        //    return await _movimientoCore.UpdateMovimientoAsync(movimiento);
-        //}
+        //// PUT api/<MovimientosController>/5
+        //[HttpPut]
+        ////public async Task<bool> Put([FromBody] Movimiento movimiento)
+        ////{
+        ////    return await _movimientoCore.UpdateMovimientoAsync(movimiento);
+        ////}
 
-        // DELETE api/<MovimientosController>/5
-        [HttpDelete]
+        //// DELETE api/<MovimientosController>/5
+        //[HttpDelete]
         public async Task<bool> Delete(int id)
         {
             return await _movimientoCore.DeleteMovimientoAsync(id);

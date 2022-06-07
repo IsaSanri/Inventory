@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using InventorySystem.Entities.Entities;
+using System.Threading.Tasks;
+using System;
 
 namespace InventorySystem.DataAccess.Context
 {
@@ -29,6 +31,11 @@ namespace InventorySystem.DataAccess.Context
             modelBuilder.Entity<Movimiento>().Property(c => c.IdMovimiento).UseIdentityColumn().Metadata.SetBeforeSaveBehavior(Microsoft.EntityFrameworkCore.Metadata.PropertySaveBehavior.Ignore);
 
             base.OnModelCreating(modelBuilder);
+        }
+
+        public Task GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
