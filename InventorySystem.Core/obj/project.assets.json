@@ -1528,6 +1528,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "InventorySystem.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "InventorySystem.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventorySystem.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventorySystem.Contracts.dll": {}
+        }
+      },
       "InventorySystem.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5829,6 +5842,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "InventorySystem.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../InventorySystem.Contracts/InventorySystem.Contracts.csproj",
+      "msbuildProject": "../InventorySystem.Contracts/InventorySystem.Contracts.csproj"
+    },
     "InventorySystem.DataAccess/1.0.0": {
       "type": "project",
       "path": "../InventorySystem.DataAccess/InventorySystem.DataAccess.csproj",
@@ -5844,6 +5862,7 @@
     "net5.0": [
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "InventorySystem.Contracts >= 1.0.0",
       "InventorySystem.DataAccess >= 1.0.0",
       "InventorySystem.Entities >= 1.0.0",
       "Microsoft.Extensions.Logging >= 5.0.0",
@@ -5882,6 +5901,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\ISABELLE SANCHEZ\\Documents\\Backend\\InventorySystem\\InventorySystem.Contracts\\InventorySystem.Contracts.csproj": {
+              "projectPath": "C:\\Users\\ISABELLE SANCHEZ\\Documents\\Backend\\InventorySystem\\InventorySystem.Contracts\\InventorySystem.Contracts.csproj"
+            },
             "C:\\Users\\ISABELLE SANCHEZ\\Documents\\Backend\\InventorySystem\\InventorySystem.DataAccess\\InventorySystem.DataAccess.csproj": {
               "projectPath": "C:\\Users\\ISABELLE SANCHEZ\\Documents\\Backend\\InventorySystem\\InventorySystem.DataAccess\\InventorySystem.DataAccess.csproj"
             },

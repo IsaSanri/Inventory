@@ -1812,12 +1812,26 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "InventorySystem.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "InventorySystem.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventorySystem.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventorySystem.Contracts.dll": {}
+        }
+      },
       "InventorySystem.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "InventorySystem.Contracts": "1.0.0",
           "InventorySystem.DataAccess": "1.0.0",
           "InventorySystem.Entities": "1.0.0",
           "Microsoft.Extensions.Logging": "5.0.0",
@@ -6528,6 +6542,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "InventorySystem.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../InventorySystem.Contracts/InventorySystem.Contracts.csproj",
+      "msbuildProject": "../InventorySystem.Contracts/InventorySystem.Contracts.csproj"
     },
     "InventorySystem.Core/1.0.0": {
       "type": "project",

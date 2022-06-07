@@ -11,6 +11,9 @@ namespace InventorySystem.Core.Core.Mapping
             CreateMap<ArticuloCreateDto, Articulo>();
             CreateMap<Articulo, ArticuloCreateDto>();
 
+            CreateMap<ArticuloSaldoExistenciaDto, ArticuloCreateDto>();
+            CreateMap<Articulo,ArticuloSaldoExistenciaDto>();
+
             CreateMap<MovimientoCreateDto, Movimiento>();
             CreateMap<Movimiento, MovimientoCreateDto>();
         }

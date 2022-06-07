@@ -5,15 +5,13 @@ namespace InventorySystem.DataAccess.Context
 {
     public class SqlServerContext : DbContext
     {
-        private readonly string _connectionString = string.Empty;
-
         public DbSet<Articulo> Articulo { get; set; }
-        
         public DbSet<Movimiento> Movimiento { get; set; }
-        //public SqlServerContext()
-        //{
-        //    _connectionString = @"Data Source = LTUSPE-L0004\SQLEXPRESS; Initial Catalog = InventorySystem; Integrated Security = true";
-        //}
+        private readonly string _connectionString = string.Empty;
+        public SqlServerContext()
+        {
+            _connectionString = @"Data Source = LTUSPE-L0004\SQLEXPRESS; Initial Catalog = InventorySystem; Integrated Security = true";
+        }
 
         public SqlServerContext(DbContextOptions<SqlServerContext> options) : base(options) { }
 

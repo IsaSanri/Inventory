@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using InventorySystem.Core.Core.V1;
 using InventorySystem.DataAccess.Context;
+using InventorySystem.Entities.DTOs;
 using InventorySystem.Entities.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -30,10 +31,19 @@ namespace InventorySystem.Services.Controllers
             return StatusCode((int)response.StatusHttp, response);
         }
 
+        // GET: api/<MovimientosController>
+        [HttpGet("Stock")]
+        public async Task<ActionResult<IEnumerable<ArticuloSaldoExistenciaDto>>> GetSaldos()
+        {
+            var response = await _movimientoCore.GetSaldosAsync();
+            return StatusCode((int)response.StatusHttp, response);
+        }
+
         // GET api/<MovimientosController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<Articulo>> Get(int id)
         {
+            var response =await _art
             return "value";
         }
 
