@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecruitmentManager.Core", "RecruitmentManager.Core.csproj", "{82AD1DD9-AF47-409D-AB98-E49268692AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Core", "Inventory.Core.csproj", "{82AD1DD9-AF47-409D-AB98-E49268692AB2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecruitmentManager.Entities", "..\RecruitmentManager.Entities\RecruitmentManager.Entities.csproj", "{E9325CCC-4F88-445B-8996-0F667644E4B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Entities", "..\Inventory.Entities\Inventory.Entities.csproj", "{E9325CCC-4F88-445B-8996-0F667644E4B6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecruitmentManager.Repositories", "..\RecruitmentManager.Repositories\RecruitmentManager.Repositories.csproj", "{87CAA2B4-4852-43FE-86F0-61881682556B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Repositories", "..\Inventory.Repositories\Inventory.Repositories.csproj", "{87CAA2B4-4852-43FE-86F0-61881682556B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecruitmentManager.DataAccess", "..\RecruitmentManager.DataAccess\RecruitmentManager.DataAccess.csproj", "{2E80B6DB-8FF5-4752-8C21-50EE7DEA72EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.DataAccess", "..\Inventory.DataAccess\Inventory.DataAccess.csproj", "{2E80B6DB-8FF5-4752-8C21-50EE7DEA72EC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecruitmentManager.Contracts", "..\RecruitmentManager.Contracts\RecruitmentManager.Contracts.csproj", "{6F25F299-F532-4E6E-ADB3-5CB48C97C3B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Contracts", "..\Inventory.Contracts\Inventory.Contracts.csproj", "{6F25F299-F532-4E6E-ADB3-5CB48C97C3B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentManager.Services", "..\RecruitmentManager.Services\RecruitmentManager.Services.csproj", "{EFF5A435-13C5-480F-B6C2-79F5B0E57AC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.Services", "..\Inventory.Services\Inventory.Services.csproj", "{EFF5A435-13C5-480F-B6C2-79F5B0E57AC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

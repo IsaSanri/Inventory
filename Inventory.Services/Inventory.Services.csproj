@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RecruitmentManager.Core\RecruitmentManager.Core.csproj" />
+    <ProjectReference Include="..\Inventory.Core\Inventory.Core.csproj" />
   </ItemGroup>
 
 </Project>

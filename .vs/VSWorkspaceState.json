@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Inventory.Entities\\DTOs",
+    "\\Inventory.Entities\\Entities",
+    "\\Inventory.Services\\Controllers"
   ],
+  "SelectedNode": "\\Inventory.Services",
   "PreviewInSolutionExplorer": false
 }
